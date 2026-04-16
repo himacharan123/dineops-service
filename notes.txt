@@ -1,0 +1,30 @@
+npm i -g @nestjs/cli
+
+nest new project-name
+
+cd project-name
+
+npm run start:dev
+
+npm i --save @nestjs/config
+
+
+use nest g resource <resource_name> this will create all the module ,services, and controllers
+
+
+process is a built-in Global Object. You can think of it as the "bridge" between your code and the computer (the operating system) it is running on.
+
+When debug is set to true, MikroORM logs every single SQL query it sends to your MySQL database directly into your console.
+
+   default: true (Database level)
+   isActive : boolean = true; = true (Application level)
+
+   onCreate is a special option recognized by MikroORM
+
+   npm install -D @mikro-orm/cli
+  
+   npx mikro-orm schema:create
+
+    npx mikro-orm schema:update --run [use this]
+
+    .flush(): This is the command that tells the ORM to look at all the changes you've made and "sync" them with the database.
